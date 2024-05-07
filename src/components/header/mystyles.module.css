@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    margin-top: 22px;
+    gap: 16px;
+}
+
+.header{
+    font-weight: 700;
+    font-size: 33px;
+}
+
+.copyright{
+    font-size: 14px;
+    margin-left: -5px;
+}
+
+.subheader{
+    font-size: 12px;
+}
+.headerContainer{
+    margin-top: -10px;
+}

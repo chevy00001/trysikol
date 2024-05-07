@@ -1,0 +1,14 @@
+.input{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 36px;
+    width: 257px;
+    margin-top: 5px;
+    text-indent: 10px;
+}
+
+.inputContainer{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+}

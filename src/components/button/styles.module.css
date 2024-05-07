@@ -1,0 +1,16 @@
+.btnPrimary, .btnSecondary{
+    
+    border-radius: 10px;
+    height: 36px;
+    width: 257px;
+    margin-top: 5px;
+}
+
+.btnPrimary{
+    background-color: #00431B;
+    color: white;
+}
+.btnSecondary{
+    background-color: #d6d6d6;
+    color: rgb(32, 32, 32);
+}
