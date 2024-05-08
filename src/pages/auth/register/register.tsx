@@ -9,11 +9,11 @@ const Register = () => {
 
   return (
     <>
-      <div className={styles.container}>
+      <div className="container">
         <div>
           <Header />
         </div>
-        <div className={styles.inputContainer}>
+        <div className="inputContainer">
           {isLocationEnabled ? (
             <span>Map</span>
           ) : (
@@ -24,43 +24,46 @@ const Register = () => {
             label={"Phone Number"}
             type={"number"}
             id={"phoneNumber"}
-            name="phoneNumber"
+            name={"phoneNumber"}
           />
           <Input
             label={"First Name"}
             type={"text"}
             id={"firstName"}
-            name="firstName"
+            name={"firstName"}
           />
           <Input
             label={"Last Name"}
             type={"text"}
             id={"lastName"}
-            name="lastName"
+            name={"lastName"}
           />
           <Input label={"Age"} type={"text"} id={"age"} name="age" />
           <Input
             label={"Password"}
             type={"password"}
             id={"password"}
-            name="password"
+            name={"password"}
           />
           <Input
             label={"Confirm Password"}
             type={"password"}
             id={"confirmPassword"}
-            name="confirmPassword"
+            name={"confirmPassword"}
           />
-          <div className={styles.helperLink}>
+          <div className="helperLink">
             <input type="checkbox" />
             <span>Already read the terms and conditions?</span>
           </div>
 
-          <Button label={"Register"} className={"btnPrimary"} />
-          <div className={styles.helperLink}>
+          <div className="pt-16">
+            <Button label={"Register"} className={"btnPrimary"} />
+          </div>
+
+          <div className="helperLink">
             <span>
               Already have an account?{" "}
-              <Link href="/auth/login" className={styles.authLink}>
+              <Link href="/auth/login" className="authLink">
                 Sign-in
               </Link>{" "}
             </span>

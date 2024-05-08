@@ -1,0 +1,11 @@
+.documentHeader{
+    padding-top: 26px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.documentLabel{
+    font-size: 22px;
+    font-weight: 500;
+    
+}

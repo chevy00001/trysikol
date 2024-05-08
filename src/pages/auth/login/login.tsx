@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Login = () => {
   return (
-    <div className={styles.container}>
+    <div className="container">
       <div className={styles.logo}>
         <Image
           src="/logo.svg"
@@ -25,27 +25,30 @@ const Login = () => {
         label={"Phone Number"}
         type={"text"}
         id={"phoneNumber"}
-        name="phoneNumber"
+        name={"phoneNumber"}
       />
 
       <Input
         label={"Password"}
         type={"password"}
         id={"password"}
-        name="password"
+        name={"password"}
       />
 
-      <div className={styles.authContainer}>
-        <Button label={"Login"} />
-        <div className={styles.helperLink}>
+      <div className="container">
+        <div className="pt-16">
+          <Button label={"Login"} />
+        </div>
+
+        <div className="helperLink">
           <span>
             No account yet?{" "}
-            <Link href="/auth/register" className={styles.authLink}>
+            <Link href="/auth/register" className="authLink">
               Sign-up
             </Link>{" "}
             |
           </span>
-          <span className={styles.authLink}>Forgot Password</span>
+          <span className="authLink">Forgot Password</span>
         </div>
       </div>
     </div>

@@ -10,6 +10,7 @@ const Input = (props: any) => {
           className={styles.input}
           id={props.id}
           name={props.name}
+          min={props.min}
         />
       </div>
     </>
