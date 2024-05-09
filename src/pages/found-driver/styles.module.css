@@ -1,0 +1,35 @@
+.diverInfoContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 22px;
+    margin-top: 16px;
+}
+
+.diverProfile{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.name{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.info{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+}
