@@ -5,6 +5,7 @@ import Image from "next/image";
 import Button from "@/components/button/button";
 
 const FoundDriver = () => {
+  const isArrived = false;
   return (
     <div className="container">
       <div className="center">
@@ -80,7 +81,15 @@ const FoundDriver = () => {
           />
         </div>
         <div className="center">
-          <Button label={"Ride"} additionalClass={"w100"} />
+          {isArrived ? (
+            <Button label={"Ride"} additionalClass={"w100"} />
+          ) : (
+            <Button
+              label={"Arrived"}
+              additionalClass={"w100"}
+              className={"btnDanger"}
+            />
+          )}
         </div>
       </div>
     </div>

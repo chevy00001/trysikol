@@ -7,6 +7,9 @@ const Button = (props) => {
   if (props.className === "btnSecondary") {
     className = `${styles.btnSecondary}`;
   }
+  if (props.className === "btnDanger") {
+    className = `${styles.btnDanger}`;
+  }
 
   return (
     <>

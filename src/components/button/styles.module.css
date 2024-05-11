@@ -1,5 +1,4 @@
-.btnPrimary, .btnSecondary{
-    
+.btnPrimary, .btnSecondary, .btnDanger{
     border-radius: 10px;
     height: 36px;
     width: 257px;
@@ -14,5 +13,9 @@
 .btnSecondary{
     background-color: #d6d6d6;
     color: rgb(32, 32, 32);
+}
+.btnDanger{
+    background-color: #AB3300;
+    color: white;
 }
 
