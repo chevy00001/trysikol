@@ -4,8 +4,8 @@ import React from "react";
 const NewBookings = () => {
   return (
     <>
-      <Items bookingId={1001} clientName={"Gom Bur Za"} />
-      <Items bookingId={1002} clientName={"Jose Rizal"} />
+      <Items bookingId={1003} clientName={"Gom Bur Za"} />
+      <Items bookingId={1004} clientName={"Jose Rizal"} />
     </>
   );
 };
