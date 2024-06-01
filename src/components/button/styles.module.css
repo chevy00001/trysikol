@@ -1,4 +1,4 @@
-.btnPrimary, .btnSecondary, .btnDanger{
+.btnPrimary, .btnSecondary, .btnDanger,.btnWarning{
     border-radius: 10px;
     height: 36px;
     width: 257px;
@@ -16,6 +16,10 @@
 }
 .btnDanger{
     background-color: #AB3300;
+    color: white;
+}
+.btnWarning{
+    background-color: #CC7A00;
     color: white;
 }
 

@@ -10,11 +10,19 @@ const Button = (props) => {
   if (props.className === "btnDanger") {
     className = `${styles.btnDanger}`;
   }
+  if (props.className === "btnWarning") {
+    className = `${styles.btnWarning}`;
+  }
 
   return (
     <>
       <span>
-        <button className={className}>{props.label}</button>
+        <button
+          className={className}
+          style={{ width: props.width, height: props.height }}
+        >
+          {props.label}
+        </button>
       </span>
     </>
   );

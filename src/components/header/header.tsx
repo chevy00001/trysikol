@@ -4,7 +4,7 @@ import Link from "next/link";
 const Header = () => {
   return (
     <>
-      <Link href="/booking">
+      <Link href="/">
         <div className={styles.container}>
           <div>
             {" "}

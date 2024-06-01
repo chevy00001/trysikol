@@ -1,0 +1,33 @@
+.tabs{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #F5F5F5;
+    margin-top: 48px;
+    border-radius: 10px 10px 0 0;
+    background-color: #F5F5F5;
+    flex-wrap: nowrap;
+}
+.tabLink{
+    padding: 10px 12px 10px 12px;
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+.tabLinkFlexGrow{
+    flex-grow: 2;
+}
+.bookingHeader{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 52%;
+    margin-top: 20px;
+}
+.bookingsContainer{
+    padding-top: 10px;
+    width: 50%;
+}
+.active{
+    font-weight: 700;
+}
